@@ -28,109 +28,25 @@ https://github.com/abhinav-kimothi/A-Simple-Guide-to-RAG
 
 <br/>
 
-Table of Contents
----
+## Краткое содержание
 
-The first three chapters of the book have been released as a part of the Manning Early Access Program. You can [join the MEAP here](https://mng.bz/8wdg)
+### ЧАСТЬ 1. ОСНОВЫ
 
-- Chapter 1 - Large Language Models and the Need for Retrieval Augmented Generation [First draft Released]
+* **01.** LLM и необходимость RAG
+* **02.** RAG-системы и их проектирование
 
-- Chapter 2 - RAG-enabled systems and their design [First draft Released]
+### ЧАСТЬ 2. СОЗДАНИЕ RAG-СИСТЕМ
 
-- Chapter 3 - Indexing Pipeline : Creating a knowledge base for RAG based applications [First draft Released] [Notebook](./Chapters/Chapter-03/indexing_pipeline.ipynb)
+* **03.** Пайплайн индексации: создание базы знаний для RAG
+* **04.** Пайплайн генерации: создание контекстных ответов с помощью LLM
+* **05.** Оценка RAG: точность, релевантность и достоверность
 
-- Chapter 4 - Generation Pipeline: Real time interaction for contextual responses [Notebook](./Chapters/Chapter-04/generation_pipeline.ipynb)
+### ЧАСТЬ 3. RAG В ПРОДАКШЕНЕ
 
-- Chapter 5 - RAG Evaluation : Checking accuracy, relevance and faithfulness [Notebook](./Chapters/Chapter-05/rag_evaluations.ipynb)
+* **06.** Процесс развития RAG-систем: наивный, продвинутый и модульный RAG
+* **07.** Эволюция стека RAGOps
 
-- Chapter 6 - Progression of RAG systems : Naive to Advanced to Modular [Notebook](./Chapters/Chapter-06/advanced_rag.ipynb.ipynb)
+### ЧАСТЬ 4. ДОПОЛНИТЕЛЬНЫЕ СООБРАЖЕНИЯ
 
-- Chapter 7 - Evolving RAGOps Stack : Technologies that make RAG possible
-
-- Chapter 8 - Nuances : Comparison with fine-tuning, multimodal and agentic RAG
-
-- Chapter 9 - Cutting Edge : Best practices and further exploration
-
-
-<br/>
-
-
-Code
----
-Code Snippets are organised in the Chapters Directory by [Chapters](./Chapters)
-
-- Chapter 1 - Does not have any code
-
-- Chapter 2 - Does not have any code
-
-- [Chapter 3 - This notebook](./Chapters/Chapter-03/indexing_pipeline.ipynb) outlines the indexing pipeline. 
-
-    A knowledge base is created for the 2023 Cricket World Cup based on the Wikipedia Article on the topic. We use __AsyncHtmlLoader__ and __Html2TextTransformer__ to load the article, chunk the text using __RecursiveCharacterTextSplitter__, use __text-embedding-3-large__ from OpenAI to convert chunks into vectors and use __FAISS__ as the vector index to store the embeddings.
-
-- [Chapter 4 - This notebook](./Chapters/Chapter-04/indexing_pipeline.ipynb) outlines the generation pipeline. 
-
-    We use the knowledge base created in Chapter 03 on the wikipedia article on 2023 Cricket World Cup. We load the __FAISS__ index and use the __similarity search__ function to retrieve chunks. We then Augment the user query with the retrieved chunk and use __GPT 4o__ model from OpenAI to generate the response.
-
-    This notebook also includes functions that can be used to generate answers for different queries that a user may want to ask.
-
-    Additionally, this chapter contains [another notebook](./Chapters/Chapter-04/xtra_tfidf_bm25_retriever.ipynb) that shows the usage of TF-IDF and BM25 as retriever algorithms.
-
-- [Chapter 5 - This notebook](./Chapters/Chapter-05/rag_evaluations.ipynb) evaluates the RAG pipeline created in chapters 3 and 4 using the __RAGAS__ framework.
-
-    Additionally, this chapter includes a [notebook](./Chapters/Chapter-05/xtra_benchmarking.ipynb) that uses LangChain Benchmarks to benchmark our RAG pipeline on LangChain QnA docs.
-
-- [Chapter 6 - This notebook](./Chapters/Chapter-06/advanced_rag.ipynb) demonstrates selected Index Optimization, Query Optimization, Retrieval Strategies and Post Retrieval Compression techniques.
-
-__Note: This is a WIP repository and subsequent chapters will be released on an ongoing basis__
-
-Setup
----
-
-Clone this repository to your local machine:
-
-```
-git clone https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG.git
-```
-
-Navigate to the cloned repository:
-
-    
-    cd A-Simple-Introduction-to-RAG
-
-It's recommended to use a virtual environment to avoid conflicts with other projects or system-wide Python packages.
-
-Run the following command to create a virtual environment named myenv (you can name it anything you like):
-
-```
-python3 -m venv .myenv
-```
-Activate the Virtual Environment:           
-
-- On Windows, activate the virtual environment by running:
-
-```
-    .myenv\Scripts\activate.bat
-```
-
-- On macOS and Linux, activate it with:
-
-```
-    source venv/bin/activate
-```
-
-Install the package requirements from the requirements.txt by executing the following pip installation command:
-
-
-```
-pip install -r requirements.txt
-```
-
-_recommended_: Store your API keys in a .env file:
-```
-OPENAI_API_KEY=<YOUR API KEY>
-LANGCHAIN_API_KEY=<YOUR API KEY>
-
-### You can also look at the .\example_dot_env file in this repo for the structure. Remeber to rename to .env
-```
-
-The notebooks in this repository need __python version > 3.11.1__
+* **08.** Варианты RAG: графовый, мультимодальный, агентный и другие
+* **09.** Общая схема разработки RAG и направления для дальнейшего изучения
