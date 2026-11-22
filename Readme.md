@@ -1,4 +1,11 @@
-# A Simple Guide to Retrieval Augmented Generation
+# [Книга][Кимоти Абхинав] Простое руководство по RAG [RUS, 2026]
+
+[Book][Abhinav Kimothi] A Simple Guide to Retrieval Augmented Generation [ENG, 2025]
+
+**Оригинальный репо:**  
+https://github.com/abhinav-kimothi/A-Simple-Guide-to-RAG
+
+
  This repository is the source code for examples and illustrations discussed in the book - [A Simple Guide to Retrieval Augmented Generation](https://mng.bz/8wdg) published by [Manning Publications](https://www.manning.com/?utm_source=kimothi&utm_medium=affiliate&utm_campaign=affiliate&a_aid=kimothi)
 
 <a href="https://mng.bz/8wdg" target="_blank">
