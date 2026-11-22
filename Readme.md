@@ -1,6 +1,6 @@
 # [Книга][Кимоти Абхинав] Простое руководство по RAG [RUS, 2026]
 
-<img src="./img/book-cover.png" alt="Простое руководство по RAG" height="256px" align="right">
+<img src="./img/book-cover.png" alt="Простое руководство по RAG" height="400px" align="right">
 
 [Book][Abhinav Kimothi] A Simple Guide to Retrieval Augmented Generation [ENG, 2025]
 
