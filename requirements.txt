@@ -1,5 +1,5 @@
 langchain==0.3.19
-langchain_community==0.3.18
+langchain_community==0.3.27
 bs4==0.0.2
 html2text==2024.2.26
 matplotlib==3.10.0
