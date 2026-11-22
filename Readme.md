@@ -5,7 +5,7 @@
 **Оригинальный репо:**  
 https://github.com/abhinav-kimothi/A-Simple-Guide-to-RAG
 
-<img src="./img/book-cover.jpg" alt="Простое руководство по RAG" height="256px" align="right">
+<img src="./img/book-cover.png" alt="Простое руководство по RAG" height="256px" align="right">
 
 <br/>
 
