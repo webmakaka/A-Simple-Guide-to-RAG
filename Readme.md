@@ -6,43 +6,45 @@
 https://github.com/abhinav-kimothi/A-Simple-Guide-to-RAG
 
 
- This repository is the source code for examples and illustrations discussed in the book - [A Simple Guide to Retrieval Augmented Generation](https://mng.bz/8wdg) published by [Manning Publications](https://www.manning.com/?utm_source=kimothi&utm_medium=affiliate&utm_campaign=affiliate&a_aid=kimothi)
+<img src="./img/book-cover.jpg" alt="Простое руководство по RAG" height="256px" align="right">
 
-<a href="https://mng.bz/8wdg" target="_blank">
-    <img src="./Assets/Images/MEAP-HI.png" alt="New MEAP" style="width: 50%;" />
-</a>
 
- Retrieval Augmented Generation, or RAG, stands as a pivotal technique shaping the landscape of the applied generative AI. A novel concept introduced by Lewis et al in their seminal paper Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (https://arxiv.org/abs/2005.11401), RAG has swiftly emerged as a cornerstone, enhancing reliability and trustworthiness in the outputs from Large Language Models (LLMs)
+<br/>
 
-About the book
----
-This book is a foundational guide designed particularly for beginners looking for an easy, yet comprehensive introduction to Retrieval Augmented Generation. This book does not go deep into the technical nitty-gritties of RAG rather provides an overview. Data Scientists, Data Engineers, ML Engineers, Software Developers, Technology Leaders, Students and Academicians interested in generative AI powered application development will find this book valuable. Upon completing this book, you can expect to:
 
-- Develop a solid understanding of RAG fundamentals, the components of a RAG enabled system and its practical applications.
-
-- Know what a non-parametric knowledge base for RAG means and how is it created.
-
-- Gain knowledge about developing a RAG enabled system with details about the indexing pipeline and the generation pipeline.
-- Gain deep insights into the evaluation of RAG enabled systems and modularised evaluation strategies
-
-- Familiarize yourself with advanced RAG strategies and the evolving landscape
-
-- Acquire knowledge of available tools, technologies and frameworks for building and deploying production grade RAG systems
-
-- Get an understanding of the current limitations of RAG and an exposure to popular emerging techniques for further exploration
-
-__Note: This book is still in development and is scheduled to be completed in the next few months__
-
-Link to the [official source code repository](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG)
-
-Link to [join the MEAP at manning.com](https://mng.bz/8wdg)
-
-To download a copy of this repository, click on the [Download ZIP](https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG/archive/refs/heads/main.zip) button or execute the following command in your terminal:
-
-```
-git clone https://github.com/abhinav-kimothi/A-Simple-Introduction-to-RAG.git
+```shell
+$ git clone https://github.com/webmakaka/A-Simple-Introduction-to-RAG.git
 ```
 
+<br/>
+
+**Простое руководство по дополненной генерации.**
+
+Технология Retrieval Augmented Generation (RAG) позволяет значительно повысить точность и надежность генеративных моделей искусственного интеллекта. Вы получите четкое понимание основ RAG, изучив ключевые компоненты и стратегии построения эффективной системы.
+
+Все про RAG:
+
+* Компоненты системы
+* База знаний
+* Конвейер индексирования и генерации
+* Оценка системы
+* Расширенные стратегии
+* Инструменты, технологии и фреймворки
+
+Конкретные инструкции по применению концепции RAG в реальных проектах делают книгу незаменимым ресурсом для инженеров, разработчиков и всех желающих освоить современные технологии генеративного искусственного интеллекта. Читатели смогут ознакомиться с множеством примеров кода на Python и приобрести ценные навыки для успешного внедрения RAG-технологий в практику, расширяя профессиональные горизонты.
+
+Книга идеально подходит для самостоятельного освоения материала и может служить справочным пособием для опытных профессионалов. После ее прочтения вы будете готовы внедрять инновационные решения в сфере искусственного интеллекта и развивать карьеру в динамично меняющемся мире AI-технологий.
+
+### Об авторе
+
+Абхинав КИМОТИ — опытный специалист в области искусственного интеллекта. Более 15 лет он разрабатывает передовые решения в сфере ИИ и машинного обучения. Руководил ИИ-проектами в области аналитики, предиктивного машинного обучения, обработки естественного языка (NLP) и генеративного ИИ.
+
+> «Кимоти предлагает фундаментальный структурированный подход. Книга ценна архитектурным взглядом. Автор четко разделяет пайплайны индексации и генерации, раскладывает их на атомарные компоненты (от загрузки данных и чанкинга до эмбеддингов и векторных баз), а затем демонстрирует, как эти компоненты взаимодействуют в стеке RAGOps.
+>
+> Это не просто учебник, а хорошо структурированная энциклопедия RAG, которая станет настольным справочником для технических специалистов — от системных аналитиков до разработчиков и архитекторов данных, стремящихся не просто "сделать RAG", а спроектировать надежную, масштабируемую и измеримую систему». — *Евгений Васюков, ведущий системный аналитик ИЦ «Ай-Теко»*
+
+
+<br/>
 
 Table of Contents
 ---
@@ -67,18 +69,13 @@ The first three chapters of the book have been released as a part of the Manning
 
 - Chapter 9 - Cutting Edge : Best practices and further exploration
 
-Why join MEAP?
----
-By joining the Manning Early Access Program, you'll get:
-- Immediate access to the book's current draft and all future updates
-- A chance to provide feedback and shape the final content
-- Exclusive discounts and early-bird offers
+
+<br/>
+
 
 Code
 ---
 Code Snippets are organised in the Chapters Directory by [Chapters](./Chapters)
-
-
 
 - Chapter 1 - Does not have any code
 
